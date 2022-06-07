@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C651E23-D6DB-3ACB-2544-B763749026F4" name="Ciudad">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>A0F4B44D-C6B7-6366-749B-8066C6DA46E5</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="1AD23671-3D70-1CF1-0272-4ABB29DDE796">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>F5AB17E1-A916-C31B-E3CA-DF9CFB5F0788</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="EB51C664-B2DE-33AE-66FF-F9529AB2BED3">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>52D28DEC-0A43-654C-E19E-BC9420417122</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_Id" id="205FD65B-DF49-22E9-BE39-6CCAF1BB4F2E">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>ECC03D22-8B6D-608F-40F4-31BF3DDEFE7E</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B86EDC2B-5763-8363-216F-C1B469E04393" referredColumn="D8A75605-47FF-A72D-D7FD-718935379317"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADA19303-04EE-011B-5619-90F11D60E23A" name="Ciudad_PK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>69B2CBAD-D261-4825-F47E-6D338FC46C68</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AD23671-3D70-1CF1-0272-4ABB29DDE796"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6845C03F-0CF1-92A0-DD03-0AC106E40D38" name="Ciudad_Departamento_FK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>CF1754A7-235B-153F-9072-A43F455023D2</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="205FD65B-DF49-22E9-BE39-6CCAF1BB4F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

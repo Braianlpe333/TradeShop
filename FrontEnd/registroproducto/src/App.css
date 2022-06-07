@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #E8E8E8;
+	font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  align-items: center;
+}
+
+
+.form {
+	min-width: 600px;
+	margin-top: 100px;
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  max-width: 1000px;
+  
+  
+}
+
+.form > div {
+	margin-bottom: 20px;
+  
+}
+
+.form label {
+	display: block;
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+  margin-left: 400px;
+}
+
+.form input,
+.form textarea {
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+  min-width: 500px;
+	border-radius: 5px;
+	border: 2px solid #e2e2e2;
+	font-size: 18px;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #1f1f1f;
+  margin-left: 200px;
+  
+}
+
+.form input:focus {
+	outline: none;
+	border: 2px solid #0085FF;
+}
+
+.form .errors {
+	color: #e92b2d;
+	font-weight: 600;
+	font-size: 12px;
+
+}
+
+.form button[type="submit"] {
+	display: block;
+	background: #0085FF;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	transition: .3s ease all;
+  margin: auto;
+}
+
+.form button[type="submit"]:hover {
+	background: #0051ff;
+}
+
+.form .nice {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 20px;
+  padding-left: 50px;
+	color: #02a802;
+}
+
+.main-display{
+  text-align: center;
+  margin-left: 300px;
+  
+}
+.mainTitle{
+  margin-top: 20px;
+}
+.top-var{
+  background-color: #0085FF;
+  min-height: 75px;
+  border-radius: 5px;
+	padding: 0px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-left: 0px;
+  display: flex;
+
+}
+
+.Type-of-sale{
+  display: flex;
+}
+
+.ButtonVar{
+  display: block;
+	background: #0085FF;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 5%;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	transition: .3s ease all;
+  margin: 0;
+}
+.ButtonVar:hover{
+  background-color: white;
+  color: #1f1f1f;
+}
+.textButtonVar{
+  padding-top: 15%;
+  display: flex;
+  text-decoration: solid;
+}
+
+.UserBotton{
+  display: block;
+	background: #0085FF;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
+	cursor: pointer;
+	width: 5%;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: .3s ease all;
+  margin: 0;
+  margin-left: 85%;
+  
+}
+.UserBotton:hover{
+  background-color: white;
+  color: #1f1f1f;
+}

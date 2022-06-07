@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Departamento Pais FK" directorySegmentName="seg_0" id="31310296-C1F4-2C85-951B-4F1731B568AA">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:46:47 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<sourcePk>5A300BA5-0509-0B65-AA83-793FC25DB519</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>74DACBBA-850B-AAEE-4DD8-C12CA0AC5D43</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47855FCD-4C1D-0571-0791-56B1BD54FBD6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

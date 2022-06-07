@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB14D823-3306-3786-1DA5-F929CC338F70" name="Publicacion">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:43:09 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="983C83B6-A969-98CF-2C52-DF2EF7C55F32">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:43:23 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaPublicacion" id="425F9107-7B61-E057-CFA0-2EC2872451E5">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:59:13 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaCaducidad" id="CEBAA2D2-F26A-3B32-7BFF-7E2AEFEA638D">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:59:38 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

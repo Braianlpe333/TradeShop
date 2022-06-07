@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usuario Ciudad FK" directorySegmentName="seg_0" id="84563D8F-A8CB-F87B-BAFB-92FF3A9F5649">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:55:28 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<sourcePk>69B2CBAD-D261-4825-F47E-6D338FC46C68</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A0F4B44D-C6B7-6366-749B-8066C6DA46E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09A1F3ED-86EB-EBA9-3A9E-8B873C219030</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

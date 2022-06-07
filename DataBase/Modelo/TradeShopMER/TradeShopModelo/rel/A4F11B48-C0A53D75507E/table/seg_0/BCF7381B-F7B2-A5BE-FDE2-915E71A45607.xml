@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCF7381B-F7B2-A5BE-FDE2-915E71A45607" name="Producto">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>6861E94C-E2BD-0E87-99A9-F3241ADCF169</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="08155E8A-ED06-0027-9A85-F7DFE5525CB8">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>6342AE24-14C7-3DD2-47F9-BB72093B5AB6</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Producto_Id" id="5F868693-C18C-58AA-FF0D-A79970C7C9D4">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>2F69898B-C058-47AE-84DB-AED86CB21D20</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95D1D3CC-36B1-26E9-C0E4-CBA9145ACB86" referredColumn="51195544-F61F-B4E8-E02A-E81E649EF878"/>
+</associations>
+</Column>
+<Column name="Publicacion_Id" id="9F12CBD7-C21C-86C5-C9B1-972F99447127">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-02 19:06:45 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A15C9683-7D51-F3D2-72B6-DCC3ED01E4E5" referredColumn="785A38FE-A74C-A4B1-A5A9-DDFC714A3B68"/>
+</associations>
+</Column>
+<Column name="Nombre" id="461ED5A8-0E67-E9B4-0EA2-E137E284A892">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>F1E64932-71D3-AB9A-32EA-5DCF1D10300C</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="7B6467DB-CFAE-60D4-F7C7-A5E764A4D7DF">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>D54C9B39-648F-ABD3-EA33-6178025390BC</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A0C7BAB-21CD-6E4F-6816-6296ECE4BCA7" name="Producto_PK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>FE6A8D57-589B-6531-EE54-B13DC7911398</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08155E8A-ED06-0027-9A85-F7DFE5525CB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77245E29-E1D7-A89B-E18C-6FFAC311A4ED" name="Producto_Tipo_Producto_FK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>6BD8CCBD-9844-F004-F296-3C86993E36D1</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F868693-C18C-58AA-FF0D-A79970C7C9D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6652706F-6ED9-9A42-74BC-185B38B9F255" name="Producto_Publicacion_FK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-01 20:43:01 UTC</createdTime>
+<generatorID>3DF5657F-8E2F-A5C4-EE2E-1CD949B99F15</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F12CBD7-C21C-86C5-C9B1-972F99447127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

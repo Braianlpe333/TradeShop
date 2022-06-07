@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09A1F3ED-86EB-EBA9-3A9E-8B873C219030" name="Usuario">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:47:42 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="61F63CE5-3479-1E37-A711-BF9B292651FC">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:49:23 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identificacion" id="351FD636-B5EF-EBC1-068A-1627AA51F56E">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:51:27 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="EFE1B0A5-E586-FEEF-4926-1EE6A9C4969A">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:48:58 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="E60F6D2E-0C88-6D11-AE32-D3610B94DA58">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:49:35 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="7DD16398-A96A-C16A-0A6E-A32F47BB7A62">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:50:03 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="F0A7E987-8F2C-26F6-0A98-1EDD39626EDA">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:50:29 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TipoId Id" id="D3A926C0-6BD3-6C99-3C56-E10D2A7F09F5">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:52:50 UTC</createdTime>
+<generatorID>DAA4B7CF-C7F7-1710-4517-1EC12238637D</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<referedAttribute>EF18933C-8ACE-F640-8D76-1151F056B23F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad Id" id="D276B531-3003-7C0D-63B3-F6383F625686">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:55:28 UTC</createdTime>
+<generatorID>84563D8F-A8CB-F87B-BAFB-92FF3A9F5649</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<referedAttribute>F5AB17E1-A916-C31B-E3CA-DF9CFB5F0788</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

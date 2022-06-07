@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Producto Tipo Producto FK" directorySegmentName="seg_0" id="6BD8CCBD-9844-F004-F296-3C86993E36D1">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:41:07 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<sourcePk>EEAB8FB1-D111-A013-4DB5-0A7639B98490</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69FD9F41-CA1A-6342-9DE2-1EA636F22CAA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6861E94C-E2BD-0E87-99A9-F3241ADCF169</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

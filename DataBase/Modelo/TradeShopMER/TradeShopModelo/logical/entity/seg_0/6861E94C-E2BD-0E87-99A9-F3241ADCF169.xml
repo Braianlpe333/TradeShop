@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6861E94C-E2BD-0E87-99A9-F3241ADCF169" name="Producto">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:31:13 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="6342AE24-14C7-3DD2-47F9-BB72093B5AB6">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:49:39 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo Producto Id" id="2F69898B-C058-47AE-84DB-AED86CB21D20">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:52:31 UTC</createdTime>
+<generatorID>6BD8CCBD-9844-F004-F296-3C86993E36D1</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<referedAttribute>9431A106-04EA-A7B4-A79F-3EB7E68E375D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo Cantidad Id" id="92EB1C82-B646-B5F0-4A6B-4DE35F7C168A">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:58:45 UTC</createdTime>
+<generatorID>973EC86C-1270-1C1F-FC5C-99DD9DB265A5</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<referedAttribute>BA286B0C-7EC3-048A-0D56-43F590F60FA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F1E64932-71D3-AB9A-32EA-5DCF1D10300C">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:50:19 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="D54C9B39-648F-ABD3-EA33-6178025390BC">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:50:32 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imagen" id="8D9A0271-BC77-94A9-19BC-4F1CD90768AF">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:50:47 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="409DE1B8-EBDD-1041-CDFB-64D877661C25">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:51:04 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="B3AC4F9A-5D1C-1675-E72D-00151125FA2A">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:58:39 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE6A8D57-589B-6531-EE54-B13DC7911398" name="Producto_PK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-27 17:49:47 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6342AE24-14C7-3DD2-47F9-BB72093B5AB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

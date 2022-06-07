@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0F4B44D-C6B7-6366-749B-8066C6DA46E5" name="Ciudad">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:47:01 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="F5AB17E1-A916-C31B-E3CA-DF9CFB5F0788">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:47:08 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="52D28DEC-0A43-654C-E19E-BC9420417122">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:47:16 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Departamento Id" id="ECC03D22-8B6D-608F-40F4-31BF3DDEFE7E">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:47:32 UTC</createdTime>
+<generatorID>CF1754A7-235B-153F-9072-A43F455023D2</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<referedAttribute>CE7F6596-7E44-8881-3037-B69FDFECADE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69B2CBAD-D261-4825-F47E-6D338FC46C68" name="Ciudad PK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:47:15 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5AB17E1-A916-C31B-E3CA-DF9CFB5F0788</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

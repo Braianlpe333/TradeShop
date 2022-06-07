@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5190787-82FD-3EB7-5DB9-8B7BD1642710" name="Imagen">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:15:39 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="31591CFE-ED98-5A37-C80E-46D5901670B3">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:16:20 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Foto" id="6FC6F525-2A1B-D110-599E-505A7DE9BD2B">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:16:20 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_Id" id="94B93BDD-64B5-7C1A-520D-640BACF5B1F0">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-01 20:37:01 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8662992-629A-70B0-09C0-339C624063D1" referredColumn="08155E8A-ED06-0027-9A85-F7DFE5525CB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCF4D725-29C8-BBAC-5A64-3A038376971C" name="Imagen_PK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:16:20 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31591CFE-ED98-5A37-C80E-46D5901670B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBE6EDEB-7C59-F527-8331-2CB18D9FBC7A" name="Imagen_Producto_FK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-01 20:37:01 UTC</createdTime>
+<generatorID>FE6A8D57-589B-6531-EE54-B13DC7911398</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94B93BDD-64B5-7C1A-520D-640BACF5B1F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

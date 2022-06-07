@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pedido Usuario FK" directorySegmentName="seg_0" id="B74D38EB-4D78-26BB-7CE2-9A7F544A0860">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 21:53:42 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>09A1F3ED-86EB-EBA9-3A9E-8B873C219030</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0A1D0459-A5ED-17A4-8EB5-C754F63D67B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

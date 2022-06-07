@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC1E5C14-55AC-994D-A1CB-BDF705809EC9" name="Tipo_Producto">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>69FD9F41-CA1A-6342-9DE2-1EA636F22CAA</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="51195544-F61F-B4E8-E02A-E81E649EF878">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>9431A106-04EA-A7B4-A79F-3EB7E68E375D</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="59A2CCDA-9871-7836-666F-350FCF195700">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>3A30FACA-6079-D2B0-2B74-C7F105110191</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB52FD88-EF9E-7073-CC52-8F0107CEEC45" name="Tipo_Producto_PK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>EEAB8FB1-D111-A013-4DB5-0A7639B98490</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51195544-F61F-B4E8-E02A-E81E649EF878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

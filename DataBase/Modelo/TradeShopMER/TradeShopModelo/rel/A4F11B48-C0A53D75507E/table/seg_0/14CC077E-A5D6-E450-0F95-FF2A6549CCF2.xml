@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14CC077E-A5D6-E450-0F95-FF2A6549CCF2" name="Publicacion">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>DB14D823-3306-3786-1DA5-F929CC338F70</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="785A38FE-A74C-A4B1-A5A9-DDFC714A3B68">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>983C83B6-A969-98CF-2C52-DF2EF7C55F32</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaPublicacion" id="1676D7A8-7806-0799-D60F-513173A3141D">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>425F9107-7B61-E057-CFA0-2EC2872451E5</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaCaducidad" id="2AC4DAEA-3AFB-7B7B-F6EB-53ED8F2F8404">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>CEBAA2D2-F26A-3B32-7BFF-7E2AEFEA638D</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_Id" id="EDCC4337-1E4E-3433-40DD-FD2D56CA503E">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-02 19:40:30 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3689E9DB-B24D-4133-4410-49A104E86661" referredColumn="8D49AD51-218E-6BED-436D-72EF18A5CA70"/>
+</associations>
+</Column>
+<Column name="Precio" id="3BF91716-4EA0-2714-1BF7-9BEE1F15D88C">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-07 01:55:55 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad" id="73AADD26-5B68-8A6E-2F47-40356530C4EE">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-07 01:55:55 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8FA430E-1DFD-55A6-3A25-11D461A0FB84" name="Publicacion_PK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="785A38FE-A74C-A4B1-A5A9-DDFC714A3B68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="834CFA25-46F4-3902-087B-A269638B8D03" name="Publicacion_Usuario_FK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:13:36 UTC</createdTime>
+<generatorID>EAB8875F-3405-8C6D-0B03-2DE5902E3373</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDCC4337-1E4E-3433-40DD-FD2D56CA503E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

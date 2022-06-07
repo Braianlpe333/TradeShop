@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95CF3A61-DEE1-A2F6-A3AD-DC01B8AB84B5" name="Imagen">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:18:46 UTC</createdTime>
+<generatorID>F5190787-82FD-3EB7-5DB9-8B7BD1642710</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="68BA3FD8-B557-B5A6-8A20-685F05684EC1">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:18:46 UTC</createdTime>
+<generatorID>31591CFE-ED98-5A37-C80E-46D5901670B3</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Foto" id="05B5ECE9-92F9-71C5-CA8C-981546B34017">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:18:46 UTC</createdTime>
+<generatorID>6FC6F525-2A1B-D110-599E-505A7DE9BD2B</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Producto Id" id="C09CDC64-B2B3-AC8F-47FC-95ABC42161DB">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-01 20:42:13 UTC</createdTime>
+<generatorID>AF30520A-ADBA-121C-6D58-9B4B75B05817</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<referedAttribute>6342AE24-14C7-3DD2-47F9-BB72093B5AB6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF47D8B7-0F44-7887-BC8D-FEE23BCFEEB6" name="Imagen PK">
+<createdBy>jmora</createdBy>
+<createdTime>2022-05-30 22:18:46 UTC</createdTime>
+<generatorID>FCF4D725-29C8-BBAC-5A64-3A038376971C</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68BA3FD8-B557-B5A6-8A20-685F05684EC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

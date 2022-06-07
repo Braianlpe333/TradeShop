@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pedido_Publicacion_FK" directorySegmentName="seg_0" id="0C02169E-C8AF-4001-AB1B-A0DEA9145836">
+<createdBy>jmora</createdBy>
+<createdTime>2022-06-01 20:42:13 UTC</createdTime>
+<generatorID>067B1E6E-6E40-2D6B-9164-5657A684A838</generatorID>
+<ownerDesignName>TradeShopModelo</ownerDesignName>
+<engineerTo>
+<item key="A4F11B48-62D9-8DDA-44D6-C0A53D75507E" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB14D823-3306-3786-1DA5-F929CC338F70</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0A1D0459-A5ED-17A4-8EB5-C754F63D67B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
